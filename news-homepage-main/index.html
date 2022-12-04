@@ -32,8 +32,8 @@
                         <li class="item item5"><a href="#">Categories</a></li>
                     </ul>
                     <div class="rightNav_responsive">
-                        <img class="ham_menu_icon" id="open_menu_btn" src="/assets/images/icon-menu.svg" alt="">
-                        <img class="close_menu_icon" id="close_menu_btn" src="/assets/images/icon-menu-close.svg" alt="">
+                        <img class="ham_menu_icon" id="open_menu_btn" src="assets/images/icon-menu.svg" alt="">
+                        <img class="close_menu_icon" id="close_menu_btn" src="assets/images/icon-menu-close.svg" alt="">
                     </div>
                     <!-- <div class="menu_overlay menu_overlay_hidden" id="backdrop_menu"></div> -->
                     <div id="backdrop_menu"></div>
@@ -157,8 +157,8 @@
 
             // --------
             var Image_Id = document.getElementById('open_menu_btn');
-            if (Image_Id.src.match("/assets/images/icon-menu.svg")) {
-                Image_Id.src = "/assets/images/icon-menu-close.svg";
+            if (Image_Id.src.match("assets/images/icon-menu.svg")) {
+                Image_Id.src = "assets/images/icon-menu-close.svg";
                 document.getElementById("open_menu_btn").style.height = "1.5rem";
                 document.getElementById("open_menu_btn").style.width = "1.5rem";
                 document.getElementById("toggle_items").style.display = "flex";
@@ -166,8 +166,8 @@
                 document.getElementById("backdrop_menu").classList.remove("menu_overlay_hidden");
                 document.getElementById("backdrop_menu").classList.add("menu_overlay");
             } else {
-                if (Image_Id.src.match("/assets/images/icon-menu-close.svg")) {
-                    Image_Id.src = "/assets/images/icon-menu.svg";
+                if (Image_Id.src.match("assets/images/icon-menu-close.svg")) {
+                    Image_Id.src = "assets/images/icon-menu.svg";
                     document.getElementById("open_menu_btn").style.height = "1rem";
                     document.getElementById("open_menu_btn").style.width = "2rem";
                     document.getElementById("toggle_items").style.display = "none";
